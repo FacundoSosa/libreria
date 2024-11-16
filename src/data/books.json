@@ -1,0 +1,212 @@
+[
+    {
+        "id": 0,
+        "ISBN": "9788417477684", 
+        "title": "CUENTOS COMPLETOS", 
+        "author": "EDGAR ALLAN POE", 
+        "price": 1200, 
+        "cantidad": 1, 
+        "condicion": "Nuevo", 
+        "img": "img/libros-portadas/portada-eap.jpg"
+    },
+
+    {
+        "id": 1,
+        "ISBN": "9788499089515", 
+        "title": "EL ALEPH", 
+        "author": "JORGE LUIS BORGES", 
+        "price": 110, 
+        "cantidad": 1, 
+        "condicion": "Nuevo", 
+        "img": "img/libros-portadas/portada-el-aleph.png"
+    },
+
+    {
+        "id": 2,
+        "ISBN": "9788466331852", 
+        "title": "FINAL DEL JUEGO", 
+        "author": "JULIO CORTÁZAR", 
+        "price": 460, 
+        "cantidad": 1, 
+        "condicion": "Usado", 
+        "img": "img/libros-portadas/portada-final-del-juego.jpg"
+    },
+
+    {
+        "id": 3,
+        "ISBN": "9788466331890", 
+        "title": "HISTORIAS DE CRONOPIOS Y DE FAMAS", 
+        "author": "JULIO CORTÁZAR", 
+        "price": 320, 
+        "cantidad": 1, 
+        "condicion": "Usado", 
+        "img": "img/libros-portadas/portada-hcyf.jpg"
+    },
+
+    {
+        "id": 4,
+        "ISBN": "9788476003930", 
+        "title": "LA ILIADA", 
+        "author": "HOMERO", 
+        "price": 920, 
+        "cantidad": 1, 
+        "condicion": "Nuevo", 
+        "img": "img/libros-portadas/portada-la-iliada.jpg"
+    },
+
+    {
+        "id": 5,
+        "ISBN": "9788467828702", 
+        "title": "LA ODISEA", 
+        "author": "HOMERO", 
+        "price": 800, 
+        "cantidad": 1, 
+        "condicion": "Nuevo", 
+        "img": "img/libros-portadas/portada-la-odisea.png"
+    },
+
+    {
+        "id": 6,
+        "ISBN": "9781500294366",
+        "title": "CUENTOS DE AMOR DE LOCURA Y DE MUERTE",
+        "author": "HORACIO QUIROGA",
+        "price": 230,
+        "cantidad": 1,
+        "condicion": "Nuevo",
+        "img": "img/libros-portadas/portada-cuentos-hq.jpg"
+    },
+
+    {
+        "id": 7,
+        "ISBN": "9789871228683",
+        "title": "LA MUJER DESNUDA",
+        "author": "ARMONÍA SOMERS",
+        "price": 600,
+        "cantidad": 1,
+        "condicion": "Usado",
+        "img": "img/libros-portadas/portada-la-mujer-desnuda.webp"
+    },
+
+    {
+        "id": 8, 
+        "ISBN": "9788483933053",
+        "title": "CUENTOS COMPLETOS",
+        "author": "ARMONÍA SOMERS",
+        "price": 1425,
+        "cantidad": 1,
+        "condicion": "Nuevo",
+        "img": "img/libros-portadas/portada-cuentos-as.jpg"
+    },
+
+    {
+        "id": 9,
+        "ISBN": "9788496136953",
+        "title": "LA TIERRA PURPÚREA",
+        "author": "WILLIAM H. HUDSON",
+        "price": 750,
+        "cantidad": 1,
+        "condicion": "Nuevo",
+        "img": "img/libros-portadas/portada-tierra-purpurea.jpg"
+    },
+
+    {
+        "id": 10,
+        "ISBN": "9781556591990",
+        "title": "LOS HERALDOS NEGROS",
+        "author": "CÉSAR VALLEJO",
+        "price": 460,
+        "cantidad": 1,
+        "condicion": "Usado",
+        "img":"img/libros-portadas/portada-heraldos-negros.png"
+    },
+
+    {
+        "id": 11,
+        "ISBN": "9788437604572",
+        "title": "RAYUELA",
+        "author": "JULIO CORTÁZAR",
+        "price": 1090,
+        "cantidad": 1,
+        "condicion": "Nuevo",
+        "img": "img/libros-portadas/portada-rayuela.jpg"
+        
+    },
+
+    {
+        "id": 12,
+        "ISBN": "9780679760955",
+        "title": "LA TREGUA",
+        "author": "MARIO BENEDETTI",
+        "price": 520,
+        "cantidad": 1,
+        "condicion": "Usado",
+        "img": "img/libros-portadas/portada-tregua.jpg"
+    },
+
+    {
+        "id": 13,
+        "ISBN": "9780374530716",
+        "title": "EL MUNDO DE SOFÍA",
+        "author": "JOSTEIN GAARDER",
+        "price": 890,
+        "cantidad": 1,
+        "condicion": "Usado",
+        "img": "img/libros-portadas/portada-el-mundo-de-sofia.jpg"
+    },
+
+    {
+        "id": 14,
+        "ISBN": "9788435018654",
+        "title": "LA FILOSOFÍA PERENNE",
+        "author": "ALDOUS HUXLEY",
+        "price": 1190,
+        "cantidad": 1,
+        "condicion": "Usado",
+        "img": "img/libros-portadas/portada-filosofia-perenne.jpg"
+    },
+
+    {
+        "id": 15,
+        "ISBN": "9788498383430",
+        "title": "HARRY POTTER Y EL PRISIONERO DE AZKABAN",
+        "author": "J.K. ROWLING",
+        "price": 2490,
+        "cantidad": 1,
+        "condicion": "Nuevo",
+        "img": "img/libros-portadas/portada-hp.jpg"
+    },
+
+    {
+        "id": 16,
+        "ISBN": "9788420674278",
+        "title": "EL CINE SEGÚN HITCHCOCK",
+        "author": "FRANÇOIS TRUFFAUT",
+        "price": 1050,
+        "cantidad": 1,
+        "condicion": "Usado",
+        "img": "img/libros-portadas/portada-hitchcock.webp"
+    },
+
+    {
+        "id": 17,
+        "ISBN": "9789877251715",
+        "title": "ÁGILMENTE",
+        "author": "ETANISLAO BACHRACH",
+        "price": 520,
+        "cantidad": 1,
+        "condicion": "Nuevo",
+        "img": "img/libros-portadas/portada-agilmente.png"
+    },
+
+    {
+        "id": 18,
+        "ISBN": "9780671579593",
+        "title": "COMO GANAR AMIGOS E INFLUIR SOBRE LAS PERSONAS",
+        "author": "DALE CARNEGIE",
+        "price": 1200,
+        "cantidad": 1,
+        "condicion": "Usado",
+        "img": "img/libros-portadas/portada-dale-carnegie.jpg"
+    }
+
+]
