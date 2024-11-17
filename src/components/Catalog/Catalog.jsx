@@ -1,5 +1,5 @@
 import React from 'react'
-import booksData from "../data/books.json"
+import booksData from "../../data/books.json"
 import BookItem from './BookItem'
 
 function Catalog() {
