@@ -45,11 +45,16 @@ export function CartProvider({ children }) {
     );
   };
 
+  // Eliminar del carrito
+  const removeFromCart = (bookId) => {
+    setCart(prevCart => prevCart.filter(item => item.id !== bookId));
+  };
+
   // Calcular el total del carrito considerando cantidades
   const total = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
 
   return (
-    <CartContext.Provider value={{ cart, addToCart, increaseQuantity, decreaseQuantity, total }}>
+    <CartContext.Provider value={{ cart, addToCart, removeFromCart, increaseQuantity, decreaseQuantity, total }}>
       {children}
     </CartContext.Provider>
   );

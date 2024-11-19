@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { CartContext } from '../CartContext';
 
 function BookItem({ book }) {
@@ -19,26 +20,30 @@ function BookItem({ book }) {
 
   return (
     <div className="card col-sm-2 m-3">
-      <img src={book.image} alt={book.title} className="card-img-top" />
-      <div className="card-body">
-        <h3 className="card-title">{book.title}</h3>
-        <p className="card-text">Autor: {book.author}</p>
-        <p className="card-text">Precio: ${book.price}</p>
-        
-        <div className="quantity-controls">
-          <button onClick={decreaseQuantity} className="btn btn-outline-secondary">-</button>
-          <span className="mx-2">{quantity}</span>
-          <button onClick={increaseQuantity} className="btn btn-outline-secondary">+</button>
-        </div>
+        <Link to={`/books/${book.id}`} className="card-body">
+          <img src={book.image} alt={book.title} className="card-img-top" />
+          <div>
+            <h3 className="card-title">{book.title}</h3>
+            <p className="card-text">Autor: {book.author}</p>
+            <p className="card-text">Precio: ${book.price}</p> 
+          </div>
+        </Link>
+          
+          <div className="quantity-controls">
+              <button onClick={decreaseQuantity} className="btn btn-outline-secondary">-</button>
+              <span className="mx-2">{quantity}</span>
+              <button onClick={increaseQuantity} className="btn btn-outline-secondary">+</button>
+          </div>
 
-        <button
-          onClick={handleAddToCart} // Llamar a la función para agregar y resetear cantidad
-          className="btn btn-dark mt-2"
-        >
-          Añadir al Carrito
-        </button>
+          <button
+            onClick={handleAddToCart} // Llamar a la función para agregar y resetear cantidad
+            className="btn btn-dark mt-2"
+          >
+            Añadir al Carrito
+          </button>
       </div>
-    </div>
+
+
   );
 }
 

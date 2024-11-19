@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { CartContext } from '../CartContext';
 
 function Cart() {
-  const { cart, total, increaseQuantity, decreaseQuantity } = useContext(CartContext);
+  const { cart, total, removeFromCart, increaseQuantity, decreaseQuantity } = useContext(CartContext);
 
   const handleCheckout = () => {
     const message = `Hola, quiero comprar los siguientes libros: ${cart.map(item => `${item.title} (x${item.quantity})`).join(', ')}`;
@@ -22,6 +22,9 @@ function Cart() {
               <span style={{ flex: 1 }}>{item.title} - ${item.price} x {item.quantity} = ${item.price * item.quantity}</span>
               <button onClick={() => decreaseQuantity(item.id)} style={{ margin: '0 5px' }}>-</button>
               <button onClick={() => increaseQuantity(item.id)} style={{ margin: '0 5px' }}>+</button>
+              <button onClick={() => removeFromCart(item.id)} className="btn btn-danger">
+                Eliminar
+              </button>
             </div>
           ))
         ) : (
