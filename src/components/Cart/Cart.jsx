@@ -1,12 +1,13 @@
 import React, { useContext } from 'react';
+import { useNavigate } from 'react-router-dom'; // Importa useNavigate
 import { CartContext } from '../CartContext';
 
 function Cart() {
   const { cart, total, removeFromCart, increaseQuantity, decreaseQuantity } = useContext(CartContext);
+  const navigate = useNavigate(); // Inicializa useNavigate
 
   const handleCheckout = () => {
-    const message = `Hola, quiero comprar los siguientes libros: ${cart.map(item => `${item.title} (x${item.quantity})`).join(', ')}`;
-    window.open(`https://wa.me/092348907?text=${encodeURIComponent(message)}`);
+    navigate('/checkout'); // Redirige a la página de checkout
   };
 
   return (
@@ -31,7 +32,7 @@ function Cart() {
           <p>El carrito está vacío.</p>
         )}
         <p><strong>Total: ${total}</strong></p>
-        {cart.length > 0 && <button onClick={handleCheckout}>Comprar por WhatsApp</button>}
+        {cart.length > 0 && <button onClick={handleCheckout} className="btn btn-primary">Proceder al Checkout</button>}
       </div>
     </div>
   );

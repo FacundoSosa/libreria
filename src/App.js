@@ -11,16 +11,16 @@ import { CartProvider } from './components/CartContext';
 function App() {
   return (
     <div className="App">
-      <Header />
       <CartProvider>
         <Router>
+          <Header />
           <Routes>
             <Route path="/" element={<Catalog />} />
             <Route path="/books/:id" element={<BookDetail />} />
             <Route path="/checkout" element={<Checkout />} />
           </Routes>
+          <Cart />
         </Router>
-        <Cart />
       </CartProvider>
     </div>
   );
